@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Montserrat:ital,wght@1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    min-height: 100vh;
+}
+
+body{
+    height: 100%;
+}
+
+header{
+    box-sizing: border-box;
+    height: 120px;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #2a2a72;
+    background-image: linear-gradient(to top, #140c50 0%, #174d9a 40%, #2093b1);
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    display: block;
+    min-height: calc(100vh - 250px);
+    width: 100%;
+}
+
+.navigation_bar{
+    position: sticky;
+    box-sizing: border-box;
+    display: inline;
+    top: 0%;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+#home{
+    float: left;
+    display: block;
+    text-align: center;
+    width: 10%;
+    max-width: 10%;
+    padding: 10pt 0px;
+    background-color: rgb(113, 159, 190);
+    border-bottom: solid rgb(113, 159, 190);
+    transition: all 0.2s ease 0s;
+}
+
+#home:hover, #home:active{
+    background-color: rgb(147, 215, 247);
+    border-bottom: solid rgb(147, 215, 247);
+}
+
+.navigation_bar div{
+    overflow: hidden;
+    float: left;
+    display: block;
+    width: 100%;
+}
+
+.navigation_bar ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #000150;
+}
+
+.navigation_bar li{
+    float: left;
+    width: 33.3333333%;
+}
+
+.navigation_bar a{
+    background-color: #110a52;
+    display: block;
+    border-bottom: solid rgb(113, 159, 190);
+    font-size: 16pt;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.navigation_bar a img{
+    height: 20px;
+    width: 25px;
+}
+
+.navigation_bar a:hover, .navigation_bar a:active{
+    background-color: rgb(47, 2, 119);
+    border-bottom: solid rgb(147, 215, 247);
+}
+
+.middle_body{
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.middle_body img{
+    width: 15rem;
+    height: 20rem;
+    margin-top: 25px;
+}
+
+footer{
+    box-sizing: border-box;
+    width: 100%;
+    height: 130px;
+    padding: 5px 0px 8px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(201, 201, 201);
+    background-color: rgb(67, 95, 114);
+    text-align: center;
+}
+
+#round{
+    border-radius: 50%;
+    border: solid rgb(63, 63, 122);
+}
+
+#line_break::before{
+    content: "\a";
+    white-space: pre;
+}
+
+.hand_writing{
+    font-family: 'Kalam', cursive;
+}
